@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome to StackEdit!
+title: Welcome to StackEdit...
 excerpt: Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me.
 ---
 
