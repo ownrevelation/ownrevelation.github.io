@@ -19,7 +19,7 @@ avatar:
 footer-links:
   dribbble:
   email: ownrevelation@gmail.com
-  facebook: https://www.facebook.com/profile.php?id=100018156109050
+  facebook: # https://www.facebook.com/profile.php?id=100018156109050
   flickr:
   github:
   instagram:
@@ -84,5 +84,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
-remote_theme: poole/hyde
