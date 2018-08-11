@@ -19,7 +19,7 @@ avatar:
 footer-links:
   dribbble:
   email: ownrevelation@gmail.com
-  facebook: https://www.facebook.com/profile.php?id=100018156109050
+  facebook: # https://www.facebook.com/profile.php?id=100018156109050
   flickr:
   github:
   instagram:
@@ -76,6 +76,7 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-theme-hydeout
 
 # Exclude these files from your production _site
 exclude:
