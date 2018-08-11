@@ -40,13 +40,15 @@ header nav {
     float: right;
     text-align: center;
 }
-section {
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 720px;
-    margin: 10px auto;
-    padding-top: 10px;
+@media screen and (max-width: 680px) and (min-width: 500px) {
+    section {
+        max-width: 68em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 720px;
+        margin: 10px auto;
+        padding-top: 10px;
+    }
 }
 ul, ol {
     margin: 0;
