@@ -18,6 +18,11 @@ body {
     border-top: 7px solid #FFDC00;
     margin: 0;
 }
+img {
+    margin: 0;
+    max-width: 100%;
+    border: 0;
+}
 header {
     height: 50px;
     margin-bottom: 12.5px;
@@ -74,6 +79,11 @@ header nav ul li :after {
 }
 header nav li.no-bullet :after {
     content:none
+}
+header a.logo img {
+    max-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 footer {
     max-width: 68em;
