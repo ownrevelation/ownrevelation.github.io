@@ -8,7 +8,7 @@ layout: default
       <h1 class="title">{{ post.title }}</h1>
       <p class="subtitle">
         <span>Tags:<a href="/#growth">growth</a></span>
-        <span class="date">{{ post.date }}</span>
+        <span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
       </p>
       <div class="post">
         {{ post.excerpt }}
