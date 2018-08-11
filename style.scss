@@ -88,14 +88,18 @@ footer:after {
     display: table;
     clear: both;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica,Roboto,Arial,sans-serif;
+    line-height: 1.25em;
+    margin: 0;
+}
 h1 {
     display: block;
     font-size: 2em;
-    -webkit-margin-before: 0.67em;
-    -webkit-margin-after: 0.67em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
     font-weight: bold;
+}
+h2 {
+    font-size: 2em;
 }
 article {
     text-align: left;
@@ -147,14 +151,4 @@ article h2 {
     font-weight: 400;
     line-height: 1.4em;
     margin-bottom: .3em;
-}
-
-h2 {
-    font-size: 2em;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
-    line-height: 1.25em;
-    margin: 0;
-    text-rendering: optimizeLegibility;
 }
