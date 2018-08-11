@@ -1,0 +1,12 @@
+---
+layout: post
+title: What should be done
+excerpt: A list of work which must be finished on this site
+---
+
+# What should be done
+
+- Draw logo
+- Create page for tags. It must list all tags by alphabetic order (see filters in [Liquid](https://shopify.github.io/liquid/basics/introduction/) and vars in [Jekyll](https://jekyllrb.com/docs/variables/))
+- page "about"
+- Footer: contacts, links biblezoom, mybible, biblequote
