@@ -11,7 +11,7 @@ body {
     -webkit-font-smoothing: antialiased;
     background-color: #fff;
     color: #333;
-    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-family: Nunito,Helvetica,Roboto,Arial,sans-serif;
     font-size: 1em;
     line-height: 1.5;
     border-top: 7px solid #FFDC00;
@@ -27,7 +27,7 @@ header {
     margin-bottom: 12.5px;
     display: block;
     width: 100%;
-    font-family: "Nunito", sans-serif;
+    font-family: Nunito, sans-serif;
     font-weight: 300;
 }
 header:after {
@@ -107,7 +107,7 @@ footer:after {
     clear: both;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: Helvetica,Roboto,Arial,sans-serif;
+    font-family: Nunito,Helvetica,Roboto,Arial,sans-serif;
     line-height: 38px;
     margin: 0;
 }
