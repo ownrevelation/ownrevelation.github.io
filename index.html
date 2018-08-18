@@ -19,7 +19,11 @@ layout: default
         <span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
       </p>
       <div class="post">
-        {{ post.excerpt }}
+        {% unless post.excerpt contains "<p>" %}
+          <p>{{ post.excerpt }}</p>
+        {% else %}
+          {{ post.excerpt }}
+        {% endunless %}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
