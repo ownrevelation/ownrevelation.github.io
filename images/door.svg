@@ -43,19 +43,6 @@
          offset="1"
          id="stop5829" />
     </linearGradient>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter5052"
-       x="-0.64454898"
-       width="2.289098"
-       y="-0.088738701"
-       height="1.1774774">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.0352885"
-         id="feGaussianBlur5054" />
-    </filter>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient5831"
@@ -91,9 +78,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="16"
-     inkscape:cx="33.892066"
-     inkscape:cy="5.7375987"
+     inkscape:zoom="8"
+     inkscape:cx="54.888207"
+     inkscape:cy="14.451181"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -193,7 +180,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -203,11 +190,11 @@
      id="layer1">
     <path
        style="opacity:1;fill:#40526b;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 1,1120.5195 c -0.55399997,0 -1,0.446 -1,1 v 1 h 1 28 1 v -1 c 0,-0.554 -0.446,-1 -1,-1 l -20.9999786,2e-4 0,-2.0001 -2.0000217,2.0001 z"
+       d="M 8.0000214,1122.5197 29,1122.5195 h 1 v -1 c 0,-0.554 -0.446,-1 -1,-1 l -20.9999786,2e-4 c 0,0 0,0.2953 0,2 z"
        transform="scale(0.26458333)"
        id="rect5914"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ssccccsscccs"
+       sodipodi:nodetypes="cccsscc"
        inkscape:export-xdpi="95.999367"
        inkscape:export-ydpi="95.999367" />
     <path
@@ -237,7 +224,7 @@
        style="fill:url(#linearGradient5922);fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 2.645839,296.47083 H 6.3499998 L 6.8791664,297 1.0583256,297 Z"
+       d="M 2.645839,296.47083 H 6.3499998 L 6.8791664,297 1.5874999,297 Z"
        id="rect5924"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc"
