@@ -178,3 +178,19 @@ article h2 {
     line-height: 1.4em;
     margin-bottom: .3em;
 }
+blockquote {
+    font-size: 16px;
+    border-color: #FFDC00;
+    font-style: italic;
+    border-left: 3px solid #DDD;
+    color: #595959;
+    margin: 1.5em 0;
+    padding-left: .75em;
+}
+code {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    font-size: 85%;
+    padding: 0 .3em;
+    font-family: monospace, serif;
+}
