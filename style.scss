@@ -153,7 +153,8 @@ a.tag {
   padding: 0px 5px;
   background: rgba(64, 82, 107, 0.1);
 }
-article p {
+article p,
+article ul {
     font-family: Comfortaa,sans-serif;
     line-height: 1.4em;
     font-size: 1.05em;
@@ -181,7 +182,7 @@ article h2 {
 article blockquote {
     font-size: 16px;
     font-style: italic;
-    border-left: 3px solid #FFDC00;
+    border-left: 3px solid #ffdc00;
     color: #595959;
     margin: 1.5em 0;
     padding-left: .75em;
@@ -197,7 +198,9 @@ article li {
     list-style-type: none;
 }
 article li:before {
-    color: #FFDC00;
+    color: #ffdc00;
     content: "•";
     padding-right: 10px;
+    font-size: 30px;
+    line-height: 25px;
 }
