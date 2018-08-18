@@ -7,7 +7,11 @@ layout: default
     <article>
       <h1 class="title">{{ post.title }}</h1>
       <p class="subtitle">
-        <span>Tags:<a href="/#growth">growth</a></span>
+        <span>Tags:
+        {% for tag in page.tags %}
+          <a href="/tags#{{ tag }}">#{{ tag }}</a>&#8194;
+        {% endfor %}
+        </span>
         <span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
       </p>
       <div class="post">
