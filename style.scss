@@ -193,3 +193,11 @@ article code {
     padding: 0 .3em;
     font-family: monospace, serif;
 }
+article li {
+    list-style-type: none;
+}
+article li:before {
+    color: #FFDC00;
+    content: "•";
+    padding-right: 10px;
+}
