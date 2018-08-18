@@ -5,7 +5,11 @@ layout: default
 <article>
   <h1 class="title">{{ page.title }}</h1>
   <p class="subtitle">
-    <span>Tags:<a href="/#growth">growth</a></span>
+    <span>Tags:
+    {% for tag in page.tags %}
+      <a href="/tags#{{ tag }}">{{ tag }}</a>
+    {% endfor %}
+    </span>
     <span class="date">{{ page.date | date: "%B %e, %Y" }}</span>
   </p>
   <div class="entry">
