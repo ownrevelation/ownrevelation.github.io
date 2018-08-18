@@ -10,7 +10,7 @@ layout: default
         {% if post.tags %}
         <span>Tags:
           {% for tag in post.tags %}
-          <a href="/tags#{{ tag }}">#{{ tag }}</a>&#8194;
+          <a class="tag" href="/tags#{{ tag }}">{{ tag }}</a>
           {% endfor %}
         </span>
         {% else %}
