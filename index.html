@@ -7,9 +7,9 @@ layout: default
     <article>
       <h1 class="title">{{ post.title }}</h1>
       <p class="subtitle">
-        {% if page.tags %}
+        {% if post.tags %}
         <span>Tags:
-          {% for tag in page.tags %}
+          {% for tag in post.tags %}
           <a href="/tags#{{ tag }}">#{{ tag }}</a>&#8194;
           {% endfor %}
         </span>
