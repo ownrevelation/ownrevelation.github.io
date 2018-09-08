@@ -3,23 +3,23 @@ layout: default
 ---
 
 {% assign tags = "" %}
-<p>tags</p>
+<p>{{ tags }}</p>
 {% for post in site.posts %}
   {% for tag in post.tags %}
     {% assign tags = tags | append: tag | append: ';' %}
   {% endfor %}
 {% endfor %}
-<p>tags</p>
+<p>{{ tags }}</p>
 
 {% assign tag_arr = tags | split: ';' | sort %}
-<p>tag_arr</p>
+<p>{{ tag_arr }}</p>
 
 <article>
   <h1 class="title">Tags</h1>
   <div class="entry">
     <ul>
     {% for tag in tag_arr %}
-      <li>tag</li>
+      <li>{{ tag }}</li>
     {% endfor %}
     </ul>
   </div>
