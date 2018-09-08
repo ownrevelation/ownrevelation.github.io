@@ -141,6 +141,9 @@ article h1 {
 article h1.title {
     font-size: 1.4em;
 }
+article strong {
+    text-weight: bold;
+}
 @media screen and (min-width: 680em) {
     article h1.title { font-size: 1.9em; }
 }
