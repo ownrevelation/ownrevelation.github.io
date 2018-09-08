@@ -12,8 +12,24 @@ layout: default
 {% assign tags = tags | split: ';' | sort | uniq %}
 
 <h1 class="title">Tags</h1>
+
+<p>
+{% for tag in tags %}
+  <a href="#{{ tag }}" class="tag">{{ tag }}</a>
+{% endfor %}
+</p>
+
 <ul>
 {% for tag in tags %}
-  <li>{{ tag }}</li>
+  <li>
+    <span id="{{ tag }}" class="tag">{{ tag }}</span>
+    {% for post in site.posts %}
+      {% for post_tag in post.tags %}
+        {% if post_tag == tag %}
+          <a href="{{ site.baseurl }}/{{ post.name }}">{{ post.title }}</a>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </li>
 {% endfor %}
 </ul>
