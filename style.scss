@@ -99,6 +99,8 @@ footer {
     padding-bottom: 30px;
     font-size: .9em;
     margin-top: 5px;
+}
+footer ul {
     display: flex;
 }
 /*footer:after {
@@ -106,7 +108,7 @@ footer {
     display: table;
     clear: both;
 }*/
-footer a {
+footer ul li {
     display: inline-block;
     margin-right: 30px;
 }
