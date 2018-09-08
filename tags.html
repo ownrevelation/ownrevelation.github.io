@@ -12,26 +12,3 @@ layout: default
 <p>{{ tags }}</p>
 {% assign tags = tags | split: ';' | sort | uniq %}
 <p>{{ tags }}</p>
-
-<div id="series">
-  <p>
-  {% for tag in tags %}
-    <a href="#{{ tag }}" class="tag">{{ tag }}</a>
-  {% endfor %}
-  </p>
-  
-  {% for tag in tags %}
-    <h3 id="{{ tag }}">{{ tag }}</h3>
-    <ul>
-    {% for post in site.posts %}
-      {% for post_tag in post.tags %}
-        {% if post_tag == tag %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-    </ul>
-  {% endfor %}
-</div>
