@@ -120,6 +120,9 @@ h1 {
 h2 {
     font-size: 2em;
 }
+h3 {
+    font-size: 1.75em;
+}
 article {
     text-align: left;
     margin-bottom: 40px;
@@ -193,7 +196,7 @@ article code {
     background-color: #eef;
     font-size: 85%;
     padding: 0 .3em;
-    font-family: monospace, serif;
+    font-family: monospace,courier-new;
 }
 article li {
     list-style-type: none;
@@ -205,4 +208,31 @@ article li:before {
     font-size: 24px;
     font-weight: bold;
     line-height: 25px;
+}
+#series h3 {
+    color: #40526b;
+    text-align: center;
+    font-family: Comfortaa,sans-serif;
+}
+#series ul {
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+#series li {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 300;
+    color: #B57801;
+}
+@media screen and (min-width: 40em)
+    #series li {
+        width: 48%;
+        margin-left: 1%;
+        margin-right: 1%;
+        float: left;
+        display: inline;
+    }
 }
