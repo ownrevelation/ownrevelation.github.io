@@ -9,11 +9,11 @@ layout: default
   {% endfor %}
 {% endfor %}
 
-{% assign tag_arr = tags | split: ';' | sort | uniq %}
+{% assign tags = tags | split: ';' | sort | uniq %}
 
 <h1 class="title">Tags</h1>
 <ul>
-{% for tag in tag_arr %}
+{% for tag in tags %}
   <li>{{ tag }}</li>
 {% endfor %}
 </ul>
