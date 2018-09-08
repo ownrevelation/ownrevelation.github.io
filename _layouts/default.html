@@ -25,8 +25,12 @@
       {{ content }}
       
       <footer>
-        <a target="_blank" href="https://mdswanson.com/blog/2013/01/28/evaluating-technical-arguments.html">Design source</a>
-        <a href="mailto:{{ page.email }}">Email me</a>
+        <ul>
+          <li>
+            <a target="_blank" href="https://mdswanson.com/blog/2013/01/28/evaluating-technical-arguments.html">Design source</a>
+          </li>
+          <li>Contact me: <a href="mailto:{{ page.email }}">{{page.email}}</a></li>
+        </ul>
       </footer>
     </section>
   </body>
