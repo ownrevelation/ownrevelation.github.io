@@ -9,7 +9,9 @@ layout: default
   {% endfor %}
 {% endfor %}
 
+<p>{{ tags }}</p>
 {% assign tags = tags | split: ';' | sort | uniq %}
+<p>{{ tags }}</p>
 
 <div id="series">
   <p>
