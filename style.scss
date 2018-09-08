@@ -100,10 +100,14 @@ footer {
     font-size: .9em;
     margin-top: 5px;
 }
-footer:after {
+/*footer:after {
     content: "";
     display: table;
     clear: both;
+}*/
+footer a {
+    display: inline-block;
+    margin-right: 30px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: Comfortaa,Helvetica,Roboto,Arial,sans-serif;
