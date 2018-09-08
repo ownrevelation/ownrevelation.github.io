@@ -5,7 +5,9 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article>
-      <h1 class="title">{{ post.title }}</h1>
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <h1 class="title">{{ post.title }}</h1>
+      </a>
       <p class="subtitle">
         {% if post.tags.length > 0 %}
         <span>Tags:
