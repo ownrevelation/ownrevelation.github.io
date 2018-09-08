@@ -29,7 +29,11 @@
           <li>
             <a target="_blank" href="https://mdswanson.com/blog/2013/01/28/evaluating-technical-arguments.html">Design source</a>
           </li>
-          <li><a href="mailto:{{ site[footer-links] }}">{{ site.footer_links }}</a></li>
+          {% if site.footer-links.email %}
+          <li>
+            <a href="mailto:{{ site.footer-links.email }}">{{ site.footer-links.email }}</a>
+          </li>
+          {% endif %}
         </ul>
       </footer>
     </section>
