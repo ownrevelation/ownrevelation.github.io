@@ -11,50 +11,25 @@ layout: default
 
 {% assign tags = tags | split: ';' | sort | uniq %}
 
-<h1 class="title">Tags</h1>
-
-<p>
-{% for tag in tags %}
-  <a href="#{{ tag }}" class="tag">{{ tag }}</a>
-{% endfor %}
-</p>
-
-<ul>
-{% for tag in tags %}
-  <li>
-    <span id="{{ tag }}" class="tag">{{ tag }}</span>
+<div id="series">
+  <p>
+  {% for tag in tags %}
+    <a href="#{{ tag }}" class="tag">{{ tag }}</a>
+  {% endfor %}
+  </p>
+  
+  {% for tag in tags %}
+    <h3 id="{{ tag }}">{{ tag }}</h3>
+    <ul>
     {% for post in site.posts %}
       {% for post_tag in post.tags %}
         {% if post_tag == tag %}
-          <a href="{{ site.baseurl }}/{{ post.name }}">{{ post.title }}</a>
+          <li>
+            <a href="{{ post.url }}">post.title</a>
+          </li>
         {% endif %}
       {% endfor %}
     {% endfor %}
-  </li>
-{% endfor %}
-</ul>
-
-
-
-
-
-<div id="series">
-  <h3 id="growth">Growth</h3>
-  <ul>
-    <li>
-      <a href="/blog/2018/05/16/evaluating-project-opportunities.html">Evaluating project opportunities</a>
-    </li>
-    <li>
-      <a href="/blog/2017/03/29/how-to-start-a-peer-group.html">How to start a peer group</a>
-    </li>
-    <li>
-      <a href="/blog/2016/03/14/the-first-winter.html">The First Winter</a>
-    </li>
-  </ul>
-  <h3 id="delightful_products">Delightful Products</h3>
-  <ul>
-    <li>
-      <a href="/blog/2017/02/14/why-machine-learning-is-interesting.html">Software ate the world</a>
-    </li>
-  </ul>
+    </ul>
+  {% endfor %}
 </div>
