@@ -148,9 +148,8 @@ article p.subtitle {
     color: rgba(51,51,51,0.4);
     font-family: Comfortaa,sans-serif;
     font-size: .9em;
-    margin-bottom: .5em;
-    margin-top: .3em;
-    height: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 a.tag {
     display: inline-block;
