@@ -153,11 +153,12 @@ article p.subtitle {
     height: 20px;
 }
 a.tag {
-  display: inline-block;
-  padding: 0px 5px;
-  background: rgba(64, 82, 107, 0.1);
-  border-radius: 2px;
-  margin: 1px 0;
+    display: inline-block;
+    padding: 0px 3px;
+    background: rgba(64, 82, 107, 0.1);
+    border-radius: 2px;
+    margin: 1px 0;
+    line-height: 20px;
 }
 article p,
 article ul {
@@ -218,7 +219,7 @@ article li:before {
 }
 #series ul {
     overflow: hidden;
-    padding-bottom: 40px;
+    padding-bottom: 12px;
 }
 #series li {
     text-align: center;
@@ -229,26 +230,8 @@ article li:before {
     font-weight: 300;
     color: #B57801;
 }
-@media screen and (min-width: 680px) {
-    #series li {
-        width: 31%;
-        margin-left: 1%;
-        margin-right: 1%;
-        float: left;
-        display: inline;
-    }
-}
-@media screen and (max-width: 760px) and (min-width: 680px) {
-    #series li {
-        width: 48%;
-        margin-left: 1%;
-        margin-right: 1%;
-        float: left;
-        display: inline;
-    }
-}
 #series p {
     width: 80%;
-    margin: auto;
+    margin: 0 auto 25px auto;
     text-align: center;
 }
