@@ -11,7 +11,7 @@ layout: default
 {% endfor %}
 <p>{{ tags }}</p>
 
-{% assign tag_arr = tags | split: ';' | sort %}
+{% assign tag_arr = tags | split: ';' | sort | uniq %}
 <p>{{ tag_arr }}</p>
 
 <article>
