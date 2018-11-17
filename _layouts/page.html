@@ -7,9 +7,9 @@ layout: default
   <p class="subtitle">
     {% if page.tags.length > 0 %}
     <span>Tags:
-      {% for tag in page.tags %}
-      <a class="tag" href="/tags#{{ tag }}">{{ tag }}</a>
-      {% endfor %}
+    {% for tag in page.tags %}
+      <a class="tag" href="{{ site.baseurl }}/tags#{{ tag }}">{{ tag }}</a>
+    {% endfor %}
     </span>
     {% endif %}
     <span class="date">{{ page.date | date: "%B %e, %Y" }}</span>
