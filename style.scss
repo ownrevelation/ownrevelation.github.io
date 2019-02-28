@@ -197,13 +197,6 @@ article blockquote {
     margin: 1.5em 0;
     padding-left: .75em;
 }
-article code {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    font-size: 85%;
-    padding: 0 .3em;
-    font-family: monospace,courier-new;
-}
 article li {
     list-style-type: none;
 }
@@ -243,13 +236,10 @@ article li:before {
 hr {
     margin-bottom: 30px;
 }
-article .highlighted-rouge code {
+article code {
     font-size: 90%;
     font-family: consolas,monospace,courier-new;
     color: #40526b;
-    border: none;
-    background-color: transparent;
-    padding: 0;
 }
 article .highlighted-rouge {
     margin-bottom: 1em;
