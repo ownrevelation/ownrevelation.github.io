@@ -245,5 +245,6 @@ article div.highlighter-rouge {
     margin-bottom: 1em;
     margin-left: 1em;
     line-height: 1;
-    overflow-x:scroll;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
