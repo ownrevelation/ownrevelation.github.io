@@ -243,3 +243,13 @@ article li:before {
 hr {
     margin-bottom: 30px;
 }
+.highlighted-rouge code {
+    font-size: 90%;
+    font-family: consolas,monospace,courier-new;
+    color: #40526b;
+    line-height: 1;
+}
+.highlighted-rouge {
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
