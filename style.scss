@@ -7,6 +7,9 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+html {
+    overflow-y: scroll;
+}
 body {
     -webkit-font-smoothing: antialiased;
     background-color: #fff;
